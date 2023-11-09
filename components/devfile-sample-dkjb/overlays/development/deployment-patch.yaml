@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dkjb
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0100-tenant/cin4s-839-0100-app/devfile-sample-dkjb@sha256:0931e91cf684d191c6ede46a958ac60c942ee409db0f80f4f8670249b945e0c4
+        name: my-nodejs
+        resources: {}
+status: {}
